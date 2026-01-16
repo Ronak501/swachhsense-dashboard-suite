@@ -85,9 +85,11 @@ export const Navbar = () => {
                 </Link>
               ))}
               <div className="flex flex-col gap-2 mt-4 pt-4 border-t border-border/50">
-                <Button variant="outline" className="w-full">
-                  Login
-                </Button>
+                <Link to="/demo-login" onClick={() => setIsOpen(false)}>
+                  <Button variant="outline" className="w-full">
+                    Login
+                  </Button>
+                </Link>
                 <Button className="w-full">Request Demo</Button>
               </div>
             </div>
