@@ -16,10 +16,6 @@ export const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Content */}
           <div className="text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent border border-primary/20 text-sm font-medium text-primary mb-6 animate-fade-up">
-              <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-              Smart India Hackathon 2024
-            </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
               Smart Hygiene for a{" "}
